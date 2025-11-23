@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tandon Jewellers Samastipur</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fafafa; }
+    header {
+        background: #d4af37;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    nav {
+        background: #222;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin: 0 12px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .banner {
+        width: 100%;
+        height: 300px;
+        background: url('https://images.unsplash.com/photo-1617038220319-5a26a5a5a5c8?auto=format&w=1400') center/cover no-repeat;
+    }
+    .section {
+        text-align: center;
+        padding: 40px 10px;
+    }
+    .products {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    .product-card {
+        width: 230px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+        padding: 15px;
+        text-align: center;
+        transition: .3s;
+    }
+    .product-card:hover {
+        transform: scale(1.08);
+        box-shadow: 0 0 15px #888;
+    }
+    .product-card img {
+        width: 100%;
+        border-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .price {
+        color: #d4af37;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .order-btn {
+        background: #d4af37;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 6px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .footer {
+        background:#222;
+        color:#fff;
+        padding:40px 20px;
+        text-align:center;
+        margin-top:30px;
+    }
+    .footer a { color:#d4af37; text-decoration:none; }
+</style>
+</head>
+<body>
+
+<header>TANDON JEWELLERS • Samastipur</header>
+
+<nav>
+    <a href="#">Rings</a>
+    <a href="#">Necklace</a>
+    <a href="#">Bracelets</a>
+    <a href="#">Earrings</a>
+    <a href="#">Collections</a>
+</nav>
+
+<div class="banner"></div>
+
+<!-- New Jewellery Products Section -->
+<div class="section">
+    <h2>Premium Jewellery Collection ✨</h2>
+    <div class="products">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1585241936939-be4099591254?auto=format&w=800">
+            <p>Diamond Gold Ring</p>
+            <p class="price">₹25,500</p>
+            <button class="order-btn" onclick="window.location.href='https://wa.me/919798804937'">Order on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1600180758890-6c09f47707eb?auto=format&w=800">
+            <p>Elegant Necklace</p>
+            <p class="price">₹65,000</p>
+            <button class="order-btn" onclick="window.location.href='https://wa.me/919798804937'">Order on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1617975606408-55e3c08bf6b7?auto=format&w=800">
+            <p>Gold Bangles</p>
+            <p class="price">₹58,000</p>
+            <button class="order-btn" onclick="window.location.href='https://wa.me/919798804937'">Order on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1589927986089-35812388d1f4?auto=format&w=800">
+            <p>Trendy Earrings</p>
+            <p class="price">₹22,000</p>
+            <button class="order-btn" onclick="window.location.href='https://wa.me/919798804937'">Order on WhatsApp</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    <h3 style="color:#d4af37;">Popular Searches</h3>
+    <p>Jewellery Gifts • Wedding Jewellery • Gold • Diamond • Silver</p>
+    <p>Samastipur | Patna | Darbhanga | Muzaffarpur | Begusarai</p>
+    <hr style="border:0;border-top:1px solid #555;margin:20px 0;">
+    <p style="font-size:14px;">© 2025 Tandon Jewellers – Samastipur | All Rights Reserved</p>
+</div>
+
+</body>
+</html>
